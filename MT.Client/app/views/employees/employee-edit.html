@@ -1,0 +1,43 @@
+﻿<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <p class="alert alert-danger" ng-show="isError">{{message}}</p>
+        <p class="alert alert-success" ng-show="isSuccess">{{message}}</p>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Add / Edit Employee
+                <div class="panel-body">
+                    <form role="form" name="form" class="form-horizontal" novalidate>
+                        <div class="form-group" form-group-validate>
+                            <label for="name" class="col-md-2 control-label">Name</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="name" name="name" ng-model="employee.name" required/>
+                            </div>
+                        </div>
+                        <div class="form-group" form-group-validate>
+                            <label for="tags" class="col-md-2 control-label">Departments</label>
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <select class="form-control" id="department" name="department" ng-model="employee.department"
+                                                ng-options="item.id as item.name for item in departments" required>
+                                            <option value="">-- Select One --</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group" form-group-validate>
+                            <label for="hidden" class="col-md-2 control-label">Active</label>
+                            <div class="col-md-10">
+                                <input type="checkbox" ng-model="employee.isActive"/>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn btn-primary" ng-click="save()">Save</button>
+                        <button type="button" class="btn btn-primary" ng-click="cancel()">Cancel</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,4 @@
+C:\Users\Ismir\documents\visual studio 2013\Projects\MT\MT.Repository\bin\Debug\MT.Repository.dll
+C:\Users\Ismir\documents\visual studio 2013\Projects\MT\MT.Repository\bin\Debug\MT.Repository.pdb
+C:\Users\Ismir\documents\visual studio 2013\Projects\MT\MT.Repository\obj\Debug\MT.Repository.dll
+C:\Users\Ismir\documents\visual studio 2013\Projects\MT\MT.Repository\obj\Debug\MT.Repository.pdb

@@ -1,0 +1,10 @@
+C:\Users\Ismir\documents\visual studio 2013\Projects\MT\MT.Logging\bin\Debug\MT.Logging.exe.config
+C:\Users\Ismir\documents\visual studio 2013\Projects\MT\MT.Logging\bin\Debug\MT.Logging.exe
+C:\Users\Ismir\documents\visual studio 2013\Projects\MT\MT.Logging\bin\Debug\MT.Logging.pdb
+C:\Users\Ismir\documents\visual studio 2013\Projects\MT\MT.Logging\bin\Debug\Microsoft.Owin.dll
+C:\Users\Ismir\documents\visual studio 2013\Projects\MT\MT.Logging\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ismir\documents\visual studio 2013\Projects\MT\MT.Logging\bin\Debug\Owin.dll
+C:\Users\Ismir\documents\visual studio 2013\Projects\MT\MT.Logging\bin\Debug\Microsoft.Owin.xml
+C:\Users\Ismir\documents\visual studio 2013\Projects\MT\MT.Logging\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ismir\documents\visual studio 2013\Projects\MT\MT.Logging\obj\Debug\MT.Logging.exe
+C:\Users\Ismir\documents\visual studio 2013\Projects\MT\MT.Logging\obj\Debug\MT.Logging.pdb

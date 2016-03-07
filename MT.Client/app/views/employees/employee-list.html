@@ -1,0 +1,44 @@
+﻿<div class="row">
+    <div class="col-md-10 col-md-offset-2">
+        <div class="well well-sm">
+            <div class="btn-group">
+                <label for="showAll" class="col-md-1 control-label">Show All</label>
+                <input type="checkbox"
+                       id="showAll"
+                       ng-model="showAll"
+                       ng-change="showAllEmployees()" style="float: left" />
+                <label for="isActive" class="col-md-1 control-label">Active employees</label>
+                <input type="checkbox"
+                       id="isActive"
+                       ng-model="isActive"
+                       ng-change="showActiveEmployees()" style="float: left" />
+                <select class="form-control departments" id="department" name="department" ng-model="selectedDepartment"
+                        ng-options="item.id as item.name for item in departments " ng-change="filterEmployeesByDepartment()">
+                    <option value="">-- Filter by departments --</option>
+                </select>
+                <button type="button" class="btn btn-primary" ng-click="new()">New</button>
+            </div>
+        </div>
+        <p class="alert alert-danger" ng-show="showError">{{message}}</p>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Active</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="employee in employees">
+                    <td>{{employee.name}}</td>
+                    <td>{{employee.department}}</td>
+                    <td>{{employee.isActive}}</td>
+                    <td><button type="button" class="btn btn-default" ng-click="edit(employee)">Edit</button></td>
+                    <td><button type="button" class="btn btn-danger" ng-click="delete(employee)">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
